@@ -1,0 +1,134 @@
+.hauptseite-container {
+    display: flex;
+    margin: 0rem;
+    padding: 0rem;
+    background-color: #282a31;
+    color: white;
+    height: 100%;
+    .gesammten-filme {
+      width: 80%;
+      height: 100%;
+      min-height: calc(100vh - 5rem);
+      border-right: 4rem solid #282a31;
+      padding: 1rem 2.25rem;
+      .hyped {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-around;
+        align-items: stretch;
+        h3 {
+          text-transform: uppercase;
+          padding-left: 0.7rem;
+          margin-bottom: 1rem;
+          margin-top: 1rem;
+          text-decoration: underline;
+        }
+      }
+      .film-box {
+        margin: 1.25rem;
+        .film {
+          position: relative;
+          display: inline-block;
+          justify-content: space-between;
+          align-content: start;
+          .ansicht {
+            position: relative;
+            flex: 3;
+            max-width: 19rem;
+            height: 17rem;
+            margin: 0.75rem;
+            cursor: pointer;
+            img {
+              border-radius: 0.32rem;
+              width: 11.25rem;
+            }
+          }
+          .details {
+            width: 11.25rem;
+            .name {
+              color: #059cfc;
+              font-size: 1.75rem;
+              text-align: center;
+              cursor: pointer;
+            }
+            .bewertung {
+              position: relative;
+              text-align: center;
+              margin-top: 1rem;
+              margin-left: 5rem;
+  
+              .fa-solid {
+                color: rgb(255, 204, 0);
+                font-size: 3rem;
+                margin: 1.25rem;
+                filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+              }
+              .mittig {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                color: black;
+                font-size: 0.75rem;
+                font-weight: 600;
+                transform: translate(-50%, -50%);
+              }
+            }
+          }
+        }
+      }
+    }
+    .beliebte-filme {
+      width: 20%;
+      height: 100%;
+      padding: 1rem 3.5rem;
+      background-color: #1c1d22;
+      text-transform: uppercase;
+      padding-left: 0.7rem;
+      margin-bottom: 0.1rem;
+      h3 {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        text-decoration: underline;
+       
+      }
+      .filme {
+        .film {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-top: 2rem;
+  
+          .name {
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 0.25rem;
+            margin-bottom: 0.25rem;
+            color: #059cfc;
+          }
+          .bewertung {
+            position: relative;
+            text-align: center;
+            margin-top: -2rem;
+            margin-top: 0.25rem;
+            margin-bottom: 0.25rem;
+  
+            // margin-left: 2rem;
+            .fa-solid {
+              color: rgb(255, 204, 0);
+              font-size: 2.7rem;
+              filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+            }
+            .mittig {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              color: black;
+              font-size: 0.7rem;
+              font-weight: 600;
+              transform: translate(-50%, -50%);
+            }
+          }
+        }
+      }
+    }
+  }

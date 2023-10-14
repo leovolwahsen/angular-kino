@@ -1,0 +1,39 @@
+.kopf-container {
+    width: 100%;
+    min-height: 3rem;
+    height: 5rem;
+    margin: 0rem;
+    padding: 0rem;
+    background-color: #059CFC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #D4EBFE;
+      letter-spacing: 0.25rem;
+      margin-left: 2vw;
+      cursor: pointer;
+    }
+    .hauptseite {
+      display: table-cell;
+      width: fit-content;
+      height: fit-content;
+      font-size: 1rem;
+      font-weight: bold;
+      padding: 0.7rem;
+      text-align: center;
+      margin-right: 2vw;
+      color: white;
+      cursor: pointer;
+      border-radius: 3rem;
+      letter-spacing: 0.1rem;
+      border: white solid 0.1rem;
+    }
+    .hauptseite:hover {
+      background-color: #005a92;
+
+    }
+  }
+  
